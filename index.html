@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <center>
+      <div class="col-xs-12 header_div text-center">
+        <h2 style="font-size: 60px; font-family: 'Nabla', system-ui;">ANIMAL SOUND IDENTIFICATION</h2>
+        <p style="font-size: 40px; font-family: 'Nabla', system-ui; font-size: 20px;">NOTE: This web app will tell which animal is there by the sound! Eg:- Cat, Dog, Elephant, Horse, Hyena, Leopard, Lion, Tiger, Wolf</p>
+      </div>
+      <br>
+      <button onclick="startclassify()">START</button>
+      <div class="maindiv">
+        <center>
+          <h3 id="resultlabel" style="font-family: 'Nabla', system-ui; font-size: 30px;">I can hear - </h3>
+          <h4 id="resultacc" style="font-family: 'Nabla', system-ui; font-size: 30px;">Confidence - </h4>
+          <br>
+        </center>
+      </div>
+      <div id="img"></div>
+      <div id="classfooter"><h4 id="name">DEVELOPED BY SRINITHI</h4></div>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>

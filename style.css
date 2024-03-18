@@ -1,0 +1,29 @@
+body{
+    background: url(back.webp);
+    background-size: cover;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-family: "Nabla", system-ui;
+}
+
+.maindiv{
+    margin-top: 200px;
+}
+
+.header_div{
+    top: 0px;
+}
+
+#space{
+    height: 20px;
+}
+
+button{
+    text-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+    font-family: "Nabla", system-ui;
+    width: 130px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    background: rgba(240, 248, 255, 0);
+}

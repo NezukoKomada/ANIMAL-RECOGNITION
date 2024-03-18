@@ -1,0 +1,2 @@
+https://teachablemachine.withgoogle.com/models/nctzbsFlZ/model.json
+cat.webp
